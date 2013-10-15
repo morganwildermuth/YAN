@@ -11,3 +11,18 @@
  *= require_self
  *= require_tree .
  */
+
+ #carousel_main{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+ }
+
+ .carousel-caption {
+  margin-left: auto;
+  margin-right: auto;
+  width: 31em;
+ }
+
+
