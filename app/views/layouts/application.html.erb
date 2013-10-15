@@ -7,8 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div class="navbar navbar-static-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href=<%= root_path %>> Youth Advocacy Network</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><%= link_to "The Team"%></li>
+            <li><%= link_to 'The Projects' %></li>
+            <li><%= link_to "Participate" %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%= yield %>
 </body>
 </html>
