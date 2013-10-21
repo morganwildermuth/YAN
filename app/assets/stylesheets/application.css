@@ -12,11 +12,18 @@
  *= require_tree .
  */
 
+body {  
+  padding-top: 80px; 
+} 
  #carousel_main{
-  width: 500px;
+  position: absolute;
   margin-left: auto;
   margin-right: auto;
-  width: 40em;
+  width: 50%;
+ }
+
+ .carousel-inner{
+  width:100%;
  }
 
  .carousel-caption {
@@ -25,4 +32,11 @@
   width: 31em;
  }
 
+#main_subheading {
+  text-align: center;
+}
+
+#main_title{
+  text-align: center;
+}
 
