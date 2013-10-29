@@ -13,8 +13,16 @@
  */
 
 body {  
+  background-image: url("cameroon_hd_wallpaper.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
   padding-top: 80px; 
 } 
+
+div.navbar-inner{
+  background: rgba(255, 255, 255, 0.75);
+}
+
  #carousel_main{
   position: absolute;
   margin-left: auto;
@@ -24,6 +32,7 @@ body {
 
  .carousel-inner{
   width:100%;
+  opacity:1;
  }
 
  .carousel-caption {
