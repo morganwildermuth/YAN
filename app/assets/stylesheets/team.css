@@ -1,0 +1,12 @@
+#team-images{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.content img, .content.text{
+  float:left;
+}
+
+.content{
+  clear: left;
+}
